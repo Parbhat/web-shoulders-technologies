@@ -20,11 +20,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">Web Shoulders Technologies is the business name under which <a href="https://parbhatpuri.com/">Parbhat Puri</a> runs his Software Consulting business and <a href="https://www.remoteinning.com/">Remote Inning</a>.</h2>
+      <h2 class="project-tagline">Web Shoulders Technologies is the business name under which Parbhat Puri runs his Software Consulting business and Remote Inning.</h2>
+      <a href="https://parbhatpuri.com/" class="btn">Personal site</a>
+      <a href="https://www.remoteinning.com/" class="btn">Remote Inning</a>
+      {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
